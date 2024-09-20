@@ -1,0 +1,42 @@
+{
+  "name": "wp-plugin-starter-kit",
+  "version": "0.0.1",
+  "description": "Plugin Wordpress",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "dev-watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "prepare-dev": "composer install",
+    "prepare-build": "composer install --no-dev",
+    "bump-dependencies": "npx npm-check-updates -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBC-Starter-Kits/Wordpress-Plugin-Starter-Kit.git"
+  },
+  "keywords": [],
+  "author": "Luis Breña Calvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LBC-Starter-Kits/Wordpress-Plugin-Starter-Kit/issues"
+  },
+  "homepage": "https://github.com/LBC-Starter-Kits/Wordpress-Plugin-Starter-Kit#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.11.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "sass": "^1.77.8",
+    "sass-loader": "^13.3.3",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "zip-webpack-plugin": "^4.0.1"
+  },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+}
